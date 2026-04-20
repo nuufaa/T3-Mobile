@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FDE7F0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Identitas Mahasiswa"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="14dp"
+        android:textColor="#FFFFFF"
+        android:background="#F06292"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="14dp"
+        android:background="#FFFFFF"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Lengkap"
+            android:textColor="#555555"/>
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama..."
+            android:backgroundTint="#F48FB1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            android:layout_marginTop="12dp"
+            android:textColor="#555555"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="#FCE4EC"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/radioGender"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbLaki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Laki-laki"/>
+
+                <RadioButton
+                    android:id="@+id/rbPerempuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perempuan"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobi"
+            android:layout_marginTop="12dp"
+            android:textColor="#555555"/>
+
+        <CheckBox
+            android:id="@+id/cbTravelling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travelling"
+            android:textColor="#444444"/>
+
+        <CheckBox
+            android:id="@+id/cbBelanja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belanja"
+            android:textColor="#444444"/>
+
+        <CheckBox
+            android:id="@+id/cbMenyanyi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menyanyi"
+            android:textColor="#444444"/>
+
+        <Button
+            android:id="@+id/btnTampilkan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampilkan"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#EC407A"
+            android:layout_marginTop="14dp"/>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:padding="12dp"
+        android:background="#FFF0F5">
+
+        <TextView
+            android:id="@+id/tvHasil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hasil akan muncul di sini"
+            android:textColor="#333333"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
