@@ -15,7 +15,7 @@
   <img width="375" height="835" alt="image" src="https://github.com/user-attachments/assets/46bd6af4-1897-4e5c-b0d3-320f91dd5d78" />
 
 - Validasi Jenis Kelamin Belum Dipilih
-  <img width="376" height="834" alt="image" src="https://github.com/user-attachments/assets/23d4a6d8-7276-42f8-a3e4-22ff0c0e473d" />
+  <img width="375" height="835" alt="image" src="https://github.com/user-attachments/assets/05900d45-b7cd-4240-9f7a-bda8cbd274af" />
 
 - Validasi Hobi Tidak Dipilih
   <img width="375" height="836" alt="image" src="https://github.com/user-attachments/assets/0b16654a-0043-4c77-b405-c76df4042cfa" />
